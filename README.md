@@ -3,7 +3,6 @@ Node.js - qflow
 
 A very simple data queue processing library.
 
- Not to be confused with [queue-flow]() ([David Elli]
 
 
 Why?
