@@ -15,7 +15,7 @@ Why?
 What About queue-flow?
 ----------------------
 
-Do not confuse this (`qflow`) with the great library [queue-flow](http://dfellis.github.com/queue-flow/2012/09/21/tutorial/) by [David Ellis](http://dfellis.posterous.com/). `queue-flow` does much more and very powerful, you should check it out. I wanted something simpler for my needs. I unfortunatley chose a the name `qflow` when `queue-flow` was already taken. I did this because I wanted to keep a cohesive naming scheme with my other `flow` libraries: [NextFlow](https://github.com/jprichardson/node-nextflow), [BatchFlow](https://github.com/jprichardson/node-batchflow), and [TriggerFlow](https://github.com/jprichardson/node-triggerflow).
+Do not confuse this (`qflow`) with the great library [queue-flow](http://dfellis.github.com/queue-flow/2012/09/21/tutorial/) by [David Ellis](http://dfellis.posterous.com/). `queue-flow` does much more and very powerful, you should check it out. I wanted something simpler for my needs. I unfortunatley chose the name `qflow` after `queue-flow` was already taken. I did this because I wanted to keep a cohesive naming scheme with my other `flow` libraries: [NextFlow](https://github.com/jprichardson/node-nextflow), [BatchFlow](https://github.com/jprichardson/node-batchflow), and [TriggerFlow](https://github.com/jprichardson/node-triggerflow).
 
 
 
