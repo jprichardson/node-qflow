@@ -215,4 +215,28 @@ describe('qflow', function () {
     })
   })
 
+  describe('> when no array is passed into the constructor', function() {
+    it ('should create an empty array', function(done) {
+      var res = []
+      var q = qflow()
+      
+      q.deq(function(val, next) {
+        res.push(val)
+        next()
+      })
+      .on('empty', function() {
+        T (res.length === 2)
+        T (res[0] === 1)
+        T (res[1] === 2)
+        done()
+      })
+
+      q.enq(1)
+      q.enq(2)
+      q.start()
+
+    })
+  })
+
 })
+
