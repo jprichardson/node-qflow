@@ -43,12 +43,7 @@ qflow([1,2,3,4])
   console.error(err)
 })
 .on('empty', function() {
-  T (results[0] === 2)
-  T (results[1] === 4)
-  T (results[2] === 6)
-  T (results[3] === 8)
-  T (results.length === 4)
-  done()
+  console.dir(results) //[2,4,6,8]
 })
 .start(1) //essentially process sequentially.
 ```
