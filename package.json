@@ -24,7 +24,8 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "testutil": "~0.5.0"
   },
   "main": "./lib/qflow.js",
   "scripts": {
