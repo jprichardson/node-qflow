@@ -39,9 +39,6 @@ qflow([1,2,3,4])
   results.push(val * 2)
   next()
 })
-.on('error', function(err) {
-  console.error(err)
-})
 .on('empty', function() {
   console.dir(results) //[2,4,6,8]
 })
