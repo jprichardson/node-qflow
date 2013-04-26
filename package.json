@@ -1,24 +1,33 @@
 {
-    "name" : "qflow", 
-    "version" : "0.0.2",
-    "description" :"A very simple data queue processing library.",
-    "homepage" : [
-       ""
-    ],
-    "repository" : {
-        "type" : "git", 
-        "url" : "git@github.com:jprichardson/node-qflow.git"
-    },
-    "keywords" : ["batch", "queue", "flow", "control"],
-    "author" : "JP Richardson <jprichardson@gmail.com>",
-    "licenses" : [ {
-        "type" : "MIT",
-        "url" : ""
-    }],
-    "dependencies" : {},
-     "devDependencies":{},
-    "main" : "./lib/qflow.js",
-    "scripts": {
-        "test": "mocha test"
+  "name": "qflow",
+  "version": "0.0.2",
+  "description": "A very simple data queue processing library.",
+  "homepage": [
+    ""
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jprichardson/node-qflow.git"
+  },
+  "keywords": [
+    "batch",
+    "queue",
+    "flow",
+    "control"
+  ],
+  "author": "JP Richardson <jprichardson@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": ""
     }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "./lib/qflow.js",
+  "scripts": {
+    "test": "mocha test"
+  }
 }
