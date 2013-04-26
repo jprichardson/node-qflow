@@ -9,7 +9,7 @@
         "type" : "git", 
         "url" : "git@github.com:jprichardson/node-qflow.git"
     },
-    "keywords" : [],
+    "keywords" : ["batch", "queue", "flow", "control"],
     "author" : "JP Richardson <jprichardson@gmail.com>",
     "licenses" : [ {
         "type" : "MIT",
