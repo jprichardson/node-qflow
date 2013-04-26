@@ -3,6 +3,7 @@
 * Didn't work at all in Node v0.10, so I rewrote it. Much cleaner, works in Node 0.10/0.8
 * removed `error` callback
 * temporarily removed `pause()`
+* added travis-ci
 
 0.0.2 / 2012-11-14
 ------------------
