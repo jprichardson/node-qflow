@@ -1,6 +1,8 @@
 Node.js - qflow
 ================
 
+[![build status](https://secure.travis-ci.org/jprichardson/node-qflow.png)](http://travis-ci.org/jprichardson/node-qflow)
+
 A very simple data queue processing library.
 
 
